@@ -19,11 +19,32 @@ OUT_NORM  = cfg["outputs"]["norm_json"]
 
 # =================== helpers ===================
 
-def norm_str(s):
+def norm_str(s: str) -> str:
+    """Normaliza nomes para join: minúsculas, sem acento, separadores como '-'."""
     s = str(s).strip().lower()
     s = unicodedata.normalize("NFKD", s)
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))  # remove acentos
+    s = s.replace("'", "").replace("`","").replace("´","")
+    s = s.replace("–","-").replace("—","-")
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
     return s
+
+# mapeamentos de nomes “sem acento/variante” -> forma oficial normalizada (também sem acento)
+NAME_OVERRIDES = {
+    "republica": "republica",          # REPÚBLICA
+    "se": "se",                        # SÉ
+    "saude": "saude",                  # SAÚDE
+    "agua-rasa": "agua-rasa",          # ÁGUA RASA
+    "freguesia-do-o": "freguesia-do-o",# FREGUESIA DO Ó
+    "vila-curuca": "vila-curuca",      # VILA CURUÇÁ
+    "sao-domingos": "sao-domingos",
+    "sao-lucas": "sao-lucas",
+    "sao-mateus": "sao-mateus",
+    "sao-miguel": "sao-miguel",
+    "sao-rafael": "sao-rafael",
+    # adicione aqui novos casos encontrados no log de faltantes
+}
 
 def first_col(df, candidates):
     """Encontra a primeira coluna do DF que casa com a lista de candidatos (case-insensitive)."""
@@ -66,36 +87,21 @@ def load_distritos(path):
     """
     g = gpd.read_file(path)
 
-    # 1) Definir CRS de origem caso o arquivo não tenha.
-    # Mais comum na capital: EPSG:31983 (SIRGAS 2000 / UTM 23S). Se ficar deslocado, teste 31984.
+    # 1) Definir CRS de origem caso o arquivo não tenha (mais comum: EPSG:31983)
     if g.crs is None:
         g = g.set_crs(31983)   # <-- mude para 31984 se necessário
-
-    # 2) Reprojetar para WGS84 (lon/lat) para compatibilizar com coordenadas das escolas (4326)
     g = g.to_crs(4326)
 
-    # 3) Padronizar colunas a partir das properties
+    # 2) Padronizar colunas a partir das properties
     rename_map = {}
     # nome oficial
-    if "nm_distrito_municipal" in g.columns:
-        rename_map["nm_distrito_municipal"] = "name"
-    elif "NOME_DIST" in g.columns:
-        rename_map["NOME_DIST"] = "name"
-    elif "Distritos" in g.columns:
-        rename_map["Distritos"] = "name"
-    elif "distrito" in g.columns:
-        rename_map["distrito"] = "name"
-
+    for cand in ["nm_distrito_municipal","NOME_DIST","Distritos","distrito","Nome","nome","NOME","name"]:
+        if cand in g.columns:
+            rename_map[cand] = "name"; break
     # id oficial
-    if "cd_identificador_distrito" in g.columns:
-        rename_map["cd_identificador_distrito"] = "id"
-    elif "cd_distrito_municipal" in g.columns:
-        rename_map["cd_distrito_municipal"] = "id"
-    elif "CD_DIST" in g.columns:
-        rename_map["CD_DIST"] = "id"
-    elif "codigo" in g.columns:
-        rename_map["codigo"] = "id"
-
+    for cand in ["cd_identificador_distrito","cd_distrito_municipal","CD_DIST","codigo","id_distrito","id"]:
+        if cand in g.columns:
+            rename_map[cand] = "id"; break
     if rename_map:
         g = g.rename(columns=rename_map)
 
@@ -108,9 +114,7 @@ def load_distritos(path):
     if "id" not in g.columns:
         g["id"] = [f"distrito_{i}" for i in range(len(g))]
         print("[distritos] AVISO: não encontrei 'cd_identificador_distrito'/'cd_distrito_municipal' (ou eq.). Usando id sintético.")
-
-    # 4) _norm para casar com Mapa 2023
-    g["_norm"] = g["name"].apply(norm_str)
+    g["_norm"] = g["name"].apply(norm_str).replace(NAME_OVERRIDES)
 
     return g[["id","name","_norm","geometry"]]
 
@@ -188,7 +192,6 @@ def load_mapa(path, sheet):
     if isinstance(score_cfg, str):
         score_cfg = [score_cfg]
 
-    # casar pelo nome EXATO da planilha
     def find_col(label):
         for c in df.columns:
             if str(c).strip() == str(label).strip():
@@ -206,14 +209,14 @@ def load_mapa(path, sheet):
     for c in cols:
         out[c] = pd.to_numeric(out[c], errors="coerce")
 
-    # z-score e média (maior=pior), depois normaliza 0..1
+    # z-score e média (maior=pior) + normalização 0..1
     z = (out[cols] - out[cols].mean())/out[cols].std(ddof=0)
     out["indice_marginalidade_2023"] = z.mean(axis=1)
     m, M = out["indice_marginalidade_2023"].min(), out["indice_marginalidade_2023"].max()
     out["indice_marginalidade_2023"] = (out["indice_marginalidade_2023"] - m) / (M - m) if M > m else 0.0
 
     out["name"]  = out["name"].astype(str).str.strip()
-    out["_norm"] = out["name"].apply(norm_str)
+    out["_norm"] = out["name"].apply(norm_str).replace(NAME_OVERRIDES)  # <== override aplicado aqui
 
     print(f"[mapa] colunas usadas p/ score: {cols}")
     return out[["_norm","indice_marginalidade_2023"]]
@@ -232,7 +235,7 @@ inep = load_inep_cadastral(IN_INEP)
 inep = inep.dropna(subset=["lon","lat"])
 inep = inep[inep["lon"].between(-180, 180) & inep["lat"].between(-90, 90)]
 
-# 3) Spatial join (defensivo: intersections + deduplicação de colunas pós-join)
+# 3) Spatial join (defensivo)
 joined = gpd.sjoin(
     inep,
     gdist[["id","name","_norm","geometry"]].copy(),
@@ -240,21 +243,16 @@ joined = gpd.sjoin(
     how="left"
 ).rename(columns={"id":"bairro_id","name":"bairro_name","_norm":"_norm_name"})
 
-# --- PATCH: resolver colunas duplicadas do sjoin ---
+# remove colunas duplicadas
 joined = joined.loc[:, ~joined.columns.duplicated(keep="last")]
-
 if (joined.columns == "bairro_id").sum() > 1:
     joined["bairro_id"] = joined.loc[:, "bairro_id"].iloc[:, -1]
-    cols = joined.columns.to_series()
-    mask = (cols == "bairro_id") & cols.duplicated(keep="last")
+    mask = (joined.columns.to_series() == "bairro_id") & joined.columns.to_series().duplicated(keep="last")
     joined = joined.loc[:, ~mask]
-
 if (joined.columns == "bairro_name").sum() > 1:
     joined["bairro_name"] = joined.loc[:, "bairro_name"].iloc[:, -1]
-    cols = joined.columns.to_series()
-    mask = (cols == "bairro_name") & cols.duplicated(keep="last")
+    mask = (joined.columns.to_series() == "bairro_name") & joined.columns.to_series().duplicated(keep="last")
     joined = joined.loc[:, ~mask]
-
 if isinstance(joined.get("bairro_id"), pd.DataFrame):
     joined["bairro_id"] = joined["bairro_id"].iloc[:, -1]
 if isinstance(joined.get("bairro_name"), pd.DataFrame):
@@ -266,7 +264,7 @@ print(f"[join] escolas atribuídas a distrito: {rate:.1%}")
 # 4) IDEB (se por escola)
 ideb_df = load_ideb(IN_IDEB)
 
-# 5) Agregação por distrito (sem matrículas/docentes)
+# 5) Agregação por distrito
 def flag_rede(s, chave):
     s = s.astype(str).str.lower().fillna("")
     return s.str.contains(chave, regex=False)
@@ -275,7 +273,6 @@ joined["is_municipal"] = flag_rede(joined.get("rede",""), "municipal")
 joined["is_estadual"]  = flag_rede(joined.get("rede",""), "estadual")
 joined["is_privada"]   = flag_rede(joined.get("rede",""), "privada")
 
-# acesso_creche_proxy: usa 'etapa' textual para checar EI/Creche
 joined["is_ei_creche"] = joined.get("etapa","").astype(str).str.upper().str.contains("CRECHE|INFANTIL|EDUCAÇÃO INFANTIL", regex=True, na=False)
 
 grp = joined.groupby(["bairro_id","bairro_name"], dropna=False)
@@ -305,17 +302,17 @@ else:
     agg["ideb"] = np.nan
     agg["ideb_year"] = pd.NA
 
-# 6) Mapa da Desigualdade 2023 (join por nome normalizado)
+# 6) Mapa da Desigualdade 2023 (join por nome normalizado + overrides)
 mapa = load_mapa(IN_MAPA, MAPA_SHEET)   # -> [_norm, indice_marginalidade_2023]
-agg["_norm"] = agg["bairro_name"].apply(norm_str)
+agg["_norm"] = agg["bairro_name"].apply(norm_str).replace(NAME_OVERRIDES)  # <== override aplicado aqui também
 agg = agg.merge(mapa, on="_norm", how="left").drop(columns=["_norm"])
 
 cov = agg["indice_marginalidade_2023"].notna().mean()
 print(f"[mapa] distritos com marginalidade preenchida: {cov:.1%}")
-if cov < 0.8:
+if cov < 0.98:
     falt = (agg.loc[agg["indice_marginalidade_2023"].isna(),"bairro_name"]
-              .dropna().unique().tolist()[:10])
-    print("[mapa] Exemplos sem match:", falt)
+              .dropna().unique().tolist()[:20])
+    print("[mapa] Exemplos sem match (adicione em NAME_OVERRIDES se necessário):", falt)
 
 # 7) Salva agregado determinístico
 agg.to_parquet(OUT_AGG, engine="fastparquet", index=False)
@@ -333,7 +330,16 @@ N["acesso_creche_bad"]   = 1 - minmax(agg["acesso_creche_proxy"])
 if agg["ideb"].notna().any():
     N["ideb_good"] = minmax(agg["ideb"])
 
-N = N.fillna(0.0)
+# >>> FILL NEUTRO (evitar NaN -> 0)
+# marginalidade faltante = 0.5 (neutro); demais = média da coluna
+if "marginalidade" in N.columns:
+    N["marginalidade"] = N["marginalidade"].fillna(0.5)
+for col in ["schools_total_bad","share_municipal_bad","share_estadual_bad","acesso_creche_bad","ideb_good"]:
+    if col in N.columns:
+        N[col] = N[col].fillna(N[col].mean())
+
+# (remover qualquer resto de NaN que sobrar)
+N = N.fillna(0.5)
 
 items = []
 for i, r in agg.reset_index(drop=True).iterrows():

@@ -77,6 +77,12 @@ SYSTEM = (
   "NÃO use nomes de distritos como drivers. Não escreva texto extra. Retorne APENAS JSON no schema."
 ).format(N=N)
 
+# constrói um mapa id->norm para ancorar drivers
+norm_map = {str(d["id"]): d.get("norm", {}) for d in items}
+# normaliza chaves (caso id venha com .0)
+norm_map = {str(k).replace(".0",""): v for k,v in norm_map.items()}
+
+
 def call_llm(distritos, system_prompt, schema, temperature=0):
     url = LLM["url"]
     model = LLM["model"]
@@ -95,53 +101,54 @@ def call_llm(distritos, system_prompt, schema, temperature=0):
     return json.loads(r.json()["message"]["content"])
 
 def sanitize_and_complete(out, distritos, allowed_feats):
-    """Garante N itens, ids corretos, drivers válidos, clamp e rank único."""
     df = pd.DataFrame(out.get("ranking", []))
-    # Se veio vazio ou menor que N, retorna vazio para forçar fallback
     if df.empty or len(df) < len(distritos):
         return None
 
-    # Reforça ordem e correspondência por id: se faltar alguém, completamos
-    input_ids = [d["id"] for d in distritos]
+    input_ids = [str(d["id"]).replace(".0","") for d in distritos]
+    df["id"] = df["id"].astype(str).str.replace(r"\.0$","", regex=True)
     df = df.set_index("id", drop=False)
+
     # completa ausentes
     for i in input_ids:
         if i not in df.index:
             df.loc[i] = {"id": i, "rank": None, "llm_score": None, "tier": None,
                          "drivers": [], "explanation": ""}
-    # reordena pela ordem de entrada
+
     df = df.loc[input_ids].reset_index(drop=True)
 
-    # clamp score e corrige tipos
-    df["llm_score"] = pd.to_numeric(df["llm_score"], errors="coerce").fillna(0).clip(0,1)
+    # clamp score
+    df["llm_score"] = pd.to_numeric(df["llm_score"], errors="coerce").fillna(0.0).clip(0,1)
 
-    # sanitize drivers
-    def fix_drivers(dr):
-        good = []
-        if isinstance(dr, list):
-            for it in dr:
-                name = it.get("name")
-                if name in allowed_feats:
-                    direction = it.get("direction", "up")
-                    if direction not in ("up","down"): direction = "up"
-                    contrib = it.get("contribution", 0)
-                    try:
-                        contrib = float(contrib)
-                    except:
-                        contrib = 0.0
-                    good.append({"name": name, "direction": direction, "contribution": contrib})
-        # completa até 3 se vier menos
-        while len(good) < 3:
-            good.append({"name": allowed_feats[len(good)%len(allowed_feats)], "direction":"up", "contribution":0.0})
-        return good[:3]
+    # >>> regravar drivers com os valores reais do 'norm'
+    def fix_drivers(row):
+        did = row["id"]
+        nv  = norm_map.get(did, {})
+        raw = row["drivers"] if isinstance(row["drivers"], list) else []
+        out = []
+        for it in raw:
+            nm = it.get("name")
+            if nm in allowed_feats:
+                val = nv.get(nm, 0.0)
+                try:
+                    val = float(val)
+                except:
+                    val = 0.0
+                out.append({"name": nm, "direction": "up" if val>=0 else "down", "contribution": float(val)})
+        # completar se vier menos de 3
+        while len(out) < 3:
+            nm = [f for f in allowed_feats if f in nv]
+            nm = (nm + allowed_feats)[len(out) % len(allowed_feats)]
+            val = float(nv.get(nm, 0.0))
+            out.append({"name": nm, "direction":"up" if val>=0 else "down", "contribution": val})
+        return out[:3]
 
-    df["drivers"] = df["drivers"].apply(fix_drivers)
+    df["drivers"] = df.apply(fix_drivers, axis=1)
 
-    # Recalcula rank e tier localmente para garantir consistência
+    # reordena por score e recalcula rank/tier localmente
     df = df.sort_values(["llm_score","id"], ascending=[False, True]).reset_index(drop=True)
     df["rank_sp"] = np.arange(1, len(df)+1)
 
-    # tier por quantis do llm_score
     q = df["llm_score"].rank(pct=True)
     def tier_of(p):
         if p >= 0.8: return "muito alto"
@@ -151,7 +158,6 @@ def sanitize_and_complete(out, distritos, allowed_feats):
         return "muito baixo"
     df["tier"] = q.apply(tier_of)
 
-    # saída final
     return {"ranking": df[["id","llm_score","rank_sp","tier","drivers","explanation"]].rename(columns={"rank_sp":"rank"}).to_dict(orient="records")}
 
 # 1ª tentativa com schema rígido
