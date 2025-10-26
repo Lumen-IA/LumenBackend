@@ -14,7 +14,7 @@ Este repositório gera, versiona e publica um **GeoJSON otimizado** de distritos
      - `out/agg.parquet` (agregado determinístico)
      - `out/norm_for_llm.json` (features normalizadas para LLM)
 
-2. **`rank_llm.py`**  
+2. **`ranking.py`**  
    - Consome `norm_for_llm.json`.
    - Pergunta ao LLM (via `config.llm.url`) um **ranking com justificativa e “drivers”**.
    - Salva `out/llm_ranking.json`.
@@ -345,6 +345,13 @@ for c in cols:
 | `llm_score`, `rank_sp`, `tier` | Saída do ranking por LLM                                             | 0..1 / # |
 | `drivers[]`                    | Principais fatores que “puxam” o score (nome, direção, contribuição) | —        |
 
+# Executar o fluxo para criação dos Dados:
+```bash
+cd ./sp-bairros
+
+python etl_sp_capital.py
+python ranking.py
+```
 
 # Rodar servidor (local):
 
