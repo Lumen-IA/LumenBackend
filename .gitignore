@@ -1,3 +1,5 @@
 .venv
 sp-bairros/out
 .DS_Store
+.idea
+sp-bairros/__pycache__
