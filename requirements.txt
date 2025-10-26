@@ -1,0 +1,22 @@
+# Core
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+PyYAML>=6.0.1
+
+# Geoespacial
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+rtree>=1.2.0
+
+# Arquivos/planilhas
+pyarrow>=15.0      # parquet (agg.parquet)
+openpyxl>=3.1      # .xlsx (se usar Excel)
+odfpy>=1.4.1       # .ods (Mapa da Desigualdade 2023)
+
+# (Opcional) validação/depuração
+jsonschema>=4.22
+fastapi>=0.115
+uvicorn[standard]>=0.30
+brotli>=1.1
