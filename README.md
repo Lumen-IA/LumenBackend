@@ -1,4 +1,4 @@
-# Lumen — Backend de Indicadores, Normalização e GeoJSON para Front
+# Lumen — Backend de Indicadores, Normalização e GeoJSON
 
 Este repositório gera, versiona e publica um **GeoJSON otimizado** de distritos de São Paulo com **indicadores normalizados**, um **índice de marginalidade composto** e um **ranking explicável** produzido por LLM — pronto para consumo no front (com Brotli/CDN).
 
