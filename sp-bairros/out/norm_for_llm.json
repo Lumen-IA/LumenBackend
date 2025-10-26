@@ -1,0 +1,1060 @@
+{
+  "distritos": [
+    {
+      "id": "8583394.0",
+      "name": "MANDAQUI",
+      "norm": {
+        "marginalidade": 0.22267201578056978,
+        "schools_total_bad": 0.7551020408163265,
+        "share_municipal_bad": 0.38111888111888115,
+        "share_estadual_bad": 0.7779156327543425,
+        "acesso_creche_bad": 0.3356643356643356
+      }
+    },
+    {
+      "id": "8583395.0",
+      "name": "MARSILAC",
+      "norm": {
+        "marginalidade": 0.4696369098972821,
+        "schools_total_bad": 1.0,
+        "share_municipal_bad": 1.0,
+        "share_estadual_bad": 0.0,
+        "acesso_creche_bad": 0.5454545454545454
+      }
+    },
+    {
+      "id": "8583396.0",
+      "name": "MOEMA",
+      "norm": {
+        "marginalidade": 0.15213013169044168,
+        "schools_total_bad": 0.7755102040816326,
+        "share_municipal_bad": 0.7318181818181818,
+        "share_estadual_bad": 0.842741935483871,
+        "acesso_creche_bad": 0.3560606060606062
+      }
+    },
+    {
+      "id": "8583397.0",
+      "name": "MOOCA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7704081632653061,
+        "share_municipal_bad": 0.824860853432282,
+        "share_estadual_bad": 0.7603686635944701,
+        "acesso_creche_bad": 0.5269016697588127
+      }
+    },
+    {
+      "id": "8583398.0",
+      "name": "MORUMBI",
+      "norm": {
+        "marginalidade": 0.44538169323034027,
+        "schools_total_bad": 0.8979591836734694,
+        "share_municipal_bad": 0.8212121212121213,
+        "share_estadual_bad": 0.8870967741935484,
+        "acesso_creche_bad": 0.16666666666666663
+      }
+    },
+    {
+      "id": "8583399.0",
+      "name": "PARI",
+      "norm": {
+        "marginalidade": 0.43413922056809967,
+        "schools_total_bad": 0.9693877551020408,
+        "share_municipal_bad": 0.5709090909090908,
+        "share_estadual_bad": 0.6387096774193548,
+        "acesso_creche_bad": 0.36363636363636376
+      }
+    },
+    {
+      "id": "8583400.0",
+      "name": "PARQUE DO CARMO",
+      "norm": {
+        "marginalidade": 0.390228884223577,
+        "schools_total_bad": 0.8214285714285714,
+        "share_municipal_bad": 0.6699300699300699,
+        "share_estadual_bad": 0.6823821339950372,
+        "acesso_creche_bad": 0.24242424242424254
+      }
+    },
+    {
+      "id": "8583401.0",
+      "name": "PEDREIRA",
+      "norm": {
+        "marginalidade": 0.43894878644782853,
+        "schools_total_bad": 0.7704081632653061,
+        "share_municipal_bad": 0.43079777365491645,
+        "share_estadual_bad": 0.586570111915734,
+        "acesso_creche_bad": 0.4897959183673469
+      }
+    },
+    {
+      "id": "8583402.0",
+      "name": "PENHA",
+      "norm": {
+        "marginalidade": 0.47530116518459875,
+        "schools_total_bad": 0.6224489795918368,
+        "share_municipal_bad": 0.8624708624708625,
+        "share_estadual_bad": 0.5732009925558312,
+        "acesso_creche_bad": 0.31235431235431244
+      }
+    },
+    {
+      "id": "8583403.0",
+      "name": "PERDIZES",
+      "norm": {
+        "marginalidade": 0.19432337099490105,
+        "schools_total_bad": 0.7959183673469388,
+        "share_municipal_bad": 0.9024793388429752,
+        "share_estadual_bad": 0.8225806451612904,
+        "acesso_creche_bad": 0.25619834710743816
+      }
+    },
+    {
+      "id": "8583404.0",
+      "name": "PERUS",
+      "norm": {
+        "marginalidade": 0.2731655254636768,
+        "schools_total_bad": 0.75,
+        "share_municipal_bad": 0.14991423670668946,
+        "share_estadual_bad": 0.783323189287888,
+        "acesso_creche_bad": 0.2881646655231562
+      }
+    },
+    {
+      "id": "8583405.0",
+      "name": "PINHEIROS",
+      "norm": {
+        "marginalidade": 0.1963481363615462,
+        "schools_total_bad": 0.8061224489795918,
+        "share_municipal_bad": 0.7956709956709956,
+        "share_estadual_bad": 0.7603686635944701,
+        "acesso_creche_bad": 0.45887445887445877
+      }
+    },
+    {
+      "id": "8583406.0",
+      "name": "PIRITUBA",
+      "norm": {
+        "marginalidade": 0.48670572621930436,
+        "schools_total_bad": 0.5867346938775511,
+        "share_municipal_bad": 0.495187165775401,
+        "share_estadual_bad": 0.5635673624288425,
+        "acesso_creche_bad": 0.49197860962566853
+      }
+    },
+    {
+      "id": "8583407.0",
+      "name": "PONTE RASA",
+      "norm": {
+        "marginalidade": 0.27781164825574106,
+        "schools_total_bad": 0.7908163265306123,
+        "share_municipal_bad": 0.14181818181818173,
+        "share_estadual_bad": 0.6860215053763441,
+        "acesso_creche_bad": 0.4040404040404042
+      }
+    },
+    {
+      "id": "8583408.0",
+      "name": "RAPOSO TAVARES",
+      "norm": {
+        "marginalidade": 0.32995443911560113,
+        "schools_total_bad": 0.7091836734693877,
+        "share_municipal_bad": 0.05037257824143071,
+        "share_estadual_bad": 0.6107879428873613,
+        "acesso_creche_bad": 0.5007451564828613
+      }
+    },
+    {
+      "id": "8583409.0",
+      "name": "REPUBLICA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.9591836734693877,
+        "share_municipal_bad": 0.6424242424242425,
+        "share_estadual_bad": 0.532258064516129,
+        "acesso_creche_bad": 1.0
+      }
+    },
+    {
+      "id": "8583410.0",
+      "name": "RIO PEQUENO",
+      "norm": {
+        "marginalidade": 0.6152591962221146,
+        "schools_total_bad": 0.6887755102040816,
+        "share_municipal_bad": 0.20783216783216774,
+        "share_estadual_bad": 0.7697270471464019,
+        "acesso_creche_bad": 0.1678321678321678
+      }
+    },
+    {
+      "id": "8583411.0",
+      "name": "SACOMA",
+      "norm": {
+        "marginalidade": 0.535914779079787,
+        "schools_total_bad": 0.4642857142857143,
+        "share_municipal_bad": 0.37014178482068383,
+        "share_estadual_bad": 0.7129328203610535,
+        "acesso_creche_bad": 0.2702251876563804
+      }
+    },
+    {
+      "id": "8583412.0",
+      "name": "SANTA CECILIA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.8571428571428572,
+        "share_municipal_bad": 0.9329545454545455,
+        "share_estadual_bad": 0.5987903225806452,
+        "acesso_creche_bad": 0.48863636363636365
+      }
+    },
+    {
+      "id": "8583413.0",
+      "name": "SANTANA",
+      "norm": {
+        "marginalidade": 0.616070505787573,
+        "schools_total_bad": 0.6326530612244898,
+        "share_municipal_bad": 0.745933014354067,
+        "share_estadual_bad": 0.5882852292020373,
+        "acesso_creche_bad": 0.4258373205741628
+      }
+    },
+    {
+      "id": "8583414.0",
+      "name": "SANTO AMARO",
+      "norm": {
+        "marginalidade": 0.1747749618927101,
+        "schools_total_bad": 0.6683673469387755,
+        "share_municipal_bad": 0.8756258234519104,
+        "share_estadual_bad": 0.8176718092566619,
+        "acesso_creche_bad": 0.5059288537549408
+      }
+    },
+    {
+      "id": "8583415.0",
+      "name": "SAO DOMINGOS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.826530612244898,
+        "share_municipal_bad": 0.2660287081339713,
+        "share_estadual_bad": 0.7843803056027165,
+        "acesso_creche_bad": 0.44976076555023914
+      }
+    },
+    {
+      "id": "8583416.0",
+      "name": "SAO LUCAS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7448979591836735,
+        "share_municipal_bad": 0.3245791245791245,
+        "share_estadual_bad": 0.6702508960573477,
+        "acesso_creche_bad": 0.24242424242424254
+      }
+    },
+    {
+      "id": "8583417.0",
+      "name": "SAO MATEUS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.5459183673469388,
+        "share_municipal_bad": 0.46940371456500485,
+        "share_estadual_bad": 0.6982310093652445,
+        "acesso_creche_bad": 0.14467253176930595
+      }
+    },
+    {
+      "id": "8583418.0",
+      "name": "SAO MIGUEL",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.6479591836734694,
+        "share_municipal_bad": 0.500373599003736,
+        "share_estadual_bad": 0.656208572691118,
+        "acesso_creche_bad": 0.5579078455790785
+      }
+    },
+    {
+      "id": "8583419.0",
+      "name": "SAO RAFAEL",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.6734693877551021,
+        "share_municipal_bad": 0.053475935828877,
+        "share_estadual_bad": 0.6574952561669829,
+        "acesso_creche_bad": 0.27807486631016043
+      }
+    },
+    {
+      "id": "8583420.0",
+      "name": "SAPOPEMBA",
+      "norm": {
+        "marginalidade": 0.5010880596212677,
+        "schools_total_bad": 0.41836734693877553,
+        "share_municipal_bad": 0.0,
+        "share_estadual_bad": 0.7577911427009295,
+        "acesso_creche_bad": 0.2989214175654855
+      }
+    },
+    {
+      "id": "8583421.0",
+      "name": "SAUDE",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7142857142857143,
+        "share_municipal_bad": 0.8927272727272727,
+        "share_estadual_bad": 0.7451612903225806,
+        "acesso_creche_bad": 0.36363636363636376
+      }
+    },
+    {
+      "id": "8583422.0",
+      "name": "SE",
+      "norm": {
+        "marginalidade": 0.842437515889128,
+        "schools_total_bad": 0.9642857142857143,
+        "share_municipal_bad": 0.8049586776859504,
+        "share_estadual_bad": 0.8709677419354839,
+        "acesso_creche_bad": 0.9586776859504132
+      }
+    },
+    {
+      "id": "8583423.0",
+      "name": "SOCORRO",
+      "norm": {
+        "marginalidade": 0.4933740745230905,
+        "schools_total_bad": 0.8673469387755102,
+        "share_municipal_bad": 0.42787878787878786,
+        "share_estadual_bad": 0.7806451612903226,
+        "acesso_creche_bad": 0.36363636363636376
+      }
+    },
+    {
+      "id": "8583424.0",
+      "name": "TATUAPE",
+      "norm": {
+        "marginalidade": 0.3046527812802709,
+        "schools_total_bad": 0.6632653061224489,
+        "share_municipal_bad": 0.6935064935064935,
+        "share_estadual_bad": 0.6387096774193548,
+        "acesso_creche_bad": 0.4675324675324677
+      }
+    },
+    {
+      "id": "8583425.0",
+      "name": "TREMEMBE",
+      "norm": {
+        "marginalidade": 0.49236518934966694,
+        "schools_total_bad": 0.7244897959183674,
+        "share_municipal_bad": 0.3341692789968651,
+        "share_estadual_bad": 0.5139043381535039,
+        "acesso_creche_bad": 0.42006269592476486
+      }
+    },
+    {
+      "id": "8583426.0",
+      "name": "TUCURUVI",
+      "norm": {
+        "marginalidade": 0.12682943400847213,
+        "schools_total_bad": 0.7346938775510203,
+        "share_municipal_bad": 0.7701298701298701,
+        "share_estadual_bad": 0.6463133640552996,
+        "acesso_creche_bad": 0.48051948051948057
+      }
+    },
+    {
+      "id": "8583427.0",
+      "name": "VILA ANDRADE",
+      "norm": {
+        "marginalidade": 1.0,
+        "schools_total_bad": 0.75,
+        "share_municipal_bad": 0.4332761578044597,
+        "share_estadual_bad": 0.7431527693244067,
+        "acesso_creche_bad": 0.25385934819897094
+      }
+    },
+    {
+      "id": "8583428.0",
+      "name": "VILA CURUCA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.596938775510204,
+        "share_municipal_bad": 0.2503833515881708,
+        "share_estadual_bad": 0.6284492809949476,
+        "acesso_creche_bad": 0.38116100766703176
+      }
+    },
+    {
+      "id": "8583429.0",
+      "name": "VILA FORMOSA",
+      "norm": {
+        "marginalidade": 0.337933120206879,
+        "schools_total_bad": 0.7193877551020409,
+        "share_municipal_bad": 0.8181818181818181,
+        "share_estadual_bad": 0.7036632039365773,
+        "acesso_creche_bad": 0.25269645608628666
+      }
+    },
+    {
+      "id": "8583430.0",
+      "name": "VILA GUILHERME",
+      "norm": {
+        "marginalidade": 0.4911626670023455,
+        "schools_total_bad": 0.8673469387755102,
+        "share_municipal_bad": 0.6424242424242425,
+        "share_estadual_bad": 0.49677419354838714,
+        "acesso_creche_bad": 0.4242424242424243
+      }
+    },
+    {
+      "id": "8583431.0",
+      "name": "VILA JACUI",
+      "norm": {
+        "marginalidade": 0.22057967064138667,
+        "schools_total_bad": 0.6989795918367347,
+        "share_municipal_bad": 0.2167388167388168,
+        "share_estadual_bad": 0.523809523809524,
+        "acesso_creche_bad": 0.4444444444444444
+      }
+    },
+    {
+      "id": "8583432.0",
+      "name": "VILA LEOPOLDINA",
+      "norm": {
+        "marginalidade": 0.3432303586302499,
+        "schools_total_bad": 0.846938775510204,
+        "share_municipal_bad": 0.6844919786096256,
+        "share_estadual_bad": 0.8140417457305503,
+        "acesso_creche_bad": 0.3315508021390374
+      }
+    },
+    {
+      "id": "8583433.0",
+      "name": "VILA MARIA",
+      "norm": {
+        "marginalidade": 0.4709686281439587,
+        "schools_total_bad": 0.7091836734693877,
+        "share_municipal_bad": 0.26140089418777945,
+        "share_estadual_bad": 0.5758857747223691,
+        "acesso_creche_bad": 0.38152011922503737
+      }
+    },
+    {
+      "id": "8583434.0",
+      "name": "VILA MARIANA",
+      "norm": {
+        "marginalidade": 0.11760235939569846,
+        "schools_total_bad": 0.6071428571428572,
+        "share_municipal_bad": 0.8675645342312008,
+        "share_estadual_bad": 0.8279569892473119,
+        "acesso_creche_bad": 0.39955106621773284
+      }
+    },
+    {
+      "id": "8583435.0",
+      "name": "VILA MATILDE",
+      "norm": {
+        "marginalidade": 0.08047860544772924,
+        "schools_total_bad": 0.6428571428571428,
+        "share_municipal_bad": 0.652088452088452,
+        "share_estadual_bad": 0.6617262423714037,
+        "acesso_creche_bad": 0.4963144963144964
+      }
+    },
+    {
+      "id": "8583436.0",
+      "name": "VILA MEDEIROS",
+      "norm": {
+        "marginalidade": 0.5183312627530395,
+        "schools_total_bad": 0.7551020408163265,
+        "share_municipal_bad": 0.5048951048951049,
+        "share_estadual_bad": 0.4913151364764269,
+        "acesso_creche_bad": 0.4405594405594405
+      }
+    },
+    {
+      "id": "8583437.0",
+      "name": "VILA PRUDENTE",
+      "norm": {
+        "marginalidade": 0.28094852062263,
+        "schools_total_bad": 0.7091836734693877,
+        "share_municipal_bad": 0.6834575260804769,
+        "share_estadual_bad": 0.5409836065573771,
+        "acesso_creche_bad": 0.4411326378539494
+      }
+    },
+    {
+      "id": "8583438.0",
+      "name": "JARDIM ANGELA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.18877551020408168,
+        "share_municipal_bad": 0.32872281093139977,
+        "share_estadual_bad": 0.5812388679992084,
+        "acesso_creche_bad": 0.3390964863357502
+      }
+    },
+    {
+      "id": "8583439.0",
+      "name": "PARELHEIROS",
+      "norm": {
+        "marginalidade": 0.3492773680688311,
+        "schools_total_bad": 0.596938775510204,
+        "share_municipal_bad": 0.4571741511500548,
+        "share_estadual_bad": 0.3462883793237467,
+        "acesso_creche_bad": 0.46878422782037255
+      }
+    },
+    {
+      "id": "8583440.0",
+      "name": "VILA SONIA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7448979591836735,
+        "share_municipal_bad": 0.5629629629629629,
+        "share_estadual_bad": 0.7885304659498208,
+        "acesso_creche_bad": 0.37710437710437716
+      }
+    },
+    {
+      "id": "8583441.0",
+      "name": "AGUA RASA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7653061224489796,
+        "share_municipal_bad": 0.6138181818181818,
+        "share_estadual_bad": 0.5961290322580646,
+        "acesso_creche_bad": 0.2545454545454545
+      }
+    },
+    {
+      "id": "8583442.0",
+      "name": "ALTO DE PINHEIROS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.9438775510204082,
+        "share_municipal_bad": 1.0,
+        "share_estadual_bad": 0.7806451612903226,
+        "acesso_creche_bad": 0.0
+      }
+    },
+    {
+      "id": "8583443.0",
+      "name": "ANHANGUERA",
+      "norm": {
+        "marginalidade": 0.07106763699124688,
+        "schools_total_bad": 0.8418367346938775,
+        "share_municipal_bad": 0.14181818181818173,
+        "share_estadual_bad": 0.7603686635944701,
+        "acesso_creche_bad": 0.5194805194805197
+      }
+    },
+    {
+      "id": "8583444.0",
+      "name": "ARICANDUVA",
+      "norm": {
+        "marginalidade": 0.2696157010107142,
+        "schools_total_bad": 0.7397959183673469,
+        "share_municipal_bad": 0.4538842975206612,
+        "share_estadual_bad": 0.5612903225806452,
+        "acesso_creche_bad": 0.3966942148760332
+      }
+    },
+    {
+      "id": "8583445.0",
+      "name": "ARTUR ALVIM",
+      "norm": {
+        "marginalidade": 0.18136004079470797,
+        "schools_total_bad": 0.7448979591836735,
+        "share_municipal_bad": 0.12592592592592589,
+        "share_estadual_bad": 0.6308243727598567,
+        "acesso_creche_bad": 0.5117845117845119
+      }
+    },
+    {
+      "id": "8583446.0",
+      "name": "BARRA FUNDA",
+      "norm": {
+        "marginalidade": 0.05078329978576375,
+        "schools_total_bad": 0.8979591836734694,
+        "share_municipal_bad": 1.0,
+        "share_estadual_bad": 0.9758064516129032,
+        "acesso_creche_bad": 0.46969696969696983
+      }
+    },
+    {
+      "id": "8583447.0",
+      "name": "BELA VISTA",
+      "norm": {
+        "marginalidade": 0.289706253805608,
+        "schools_total_bad": 0.8520408163265306,
+        "share_municipal_bad": 0.8049586776859504,
+        "share_estadual_bad": 1.0,
+        "acesso_creche_bad": 0.24242424242424254
+      }
+    },
+    {
+      "id": "8583448.0",
+      "name": "BELEM",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.8010204081632653,
+        "share_municipal_bad": 0.8503171247357294,
+        "share_estadual_bad": 0.123780945236309,
+        "acesso_creche_bad": 0.6088794926004228
+      }
+    },
+    {
+      "id": "8583449.0",
+      "name": "BOM RETIRO",
+      "norm": {
+        "marginalidade": 0.4344855271640114,
+        "schools_total_bad": 0.8979591836734694,
+        "share_municipal_bad": 0.7318181818181818,
+        "share_estadual_bad": 0.7983870967741935,
+        "acesso_creche_bad": 0.24242424242424254
+      }
+    },
+    {
+      "id": "8583450.0",
+      "name": "BRAS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.9336734693877551,
+        "share_municipal_bad": 0.6213903743315508,
+        "share_estadual_bad": 0.18785578747628084,
+        "acesso_creche_bad": 0.9197860962566845
+      }
+    },
+    {
+      "id": "8583451.0",
+      "name": "BRASILANDIA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.33673469387755106,
+        "share_municipal_bad": 0.4396200814111262,
+        "share_estadual_bad": 0.6831969186326432,
+        "acesso_creche_bad": 0.2876526458616012
+      }
+    },
+    {
+      "id": "8583452.0",
+      "name": "BUTANTA",
+      "norm": {
+        "marginalidade": 0.021950881119641545,
+        "schools_total_bad": 0.7857142857142857,
+        "share_municipal_bad": 0.6735177865612647,
+        "share_estadual_bad": 0.509116409537167,
+        "acesso_creche_bad": 0.624505928853755
+      }
+    },
+    {
+      "id": "8583453.0",
+      "name": "CACHOEIRINHA",
+      "norm": {
+        "marginalidade": 0.45022475622421193,
+        "schools_total_bad": 0.6377551020408163,
+        "share_municipal_bad": 0.5995151515151516,
+        "share_estadual_bad": 0.695483870967742,
+        "acesso_creche_bad": 0.24242424242424254
+      }
+    },
+    {
+      "id": "8583454.0",
+      "name": "CAMBUCI",
+      "norm": {
+        "marginalidade": 0.2416542870071283,
+        "schools_total_bad": 0.9285714285714286,
+        "share_municipal_bad": 0.404040404040404,
+        "share_estadual_bad": 0.7096774193548387,
+        "acesso_creche_bad": 0.7474747474747474
+      }
+    },
+    {
+      "id": "8583455.0",
+      "name": "CAMPO BELO",
+      "norm": {
+        "marginalidade": 0.4565581557408597,
+        "schools_total_bad": 0.7857142857142857,
+        "share_municipal_bad": 0.766798418972332,
+        "share_estadual_bad": 0.9719495091164095,
+        "acesso_creche_bad": 0.38735177865612647
+      }
+    },
+    {
+      "id": "8583456.0",
+      "name": "CAMPO GRANDE",
+      "norm": {
+        "marginalidade": 0.14346398886194517,
+        "schools_total_bad": 0.7551020408163265,
+        "share_municipal_bad": 0.42237762237762233,
+        "share_estadual_bad": 0.8188585607940446,
+        "acesso_creche_bad": 0.37062937062937074
+      }
+    },
+    {
+      "id": "8583457.0",
+      "name": "CAMPO LIMPO",
+      "norm": {
+        "marginalidade": 0.5953667041596439,
+        "schools_total_bad": 0.37755102040816324,
+        "share_municipal_bad": 0.2848484848484849,
+        "share_estadual_bad": 0.7772657450076805,
+        "acesso_creche_bad": 0.21356421356421362
+      }
+    },
+    {
+      "id": "8583458.0",
+      "name": "CANGAIBA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7091836734693877,
+        "share_municipal_bad": 0.4724292101341282,
+        "share_estadual_bad": 0.5060814383923851,
+        "acesso_creche_bad": 0.35171385991058124
+      }
+    },
+    {
+      "id": "8583459.0",
+      "name": "CAPAO REDONDO",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.16836734693877553,
+        "share_municipal_bad": 0.34480130647795315,
+        "share_estadual_bad": 0.7075526366621596,
+        "acesso_creche_bad": 0.27871529667936856
+      }
+    },
+    {
+      "id": "8583460.0",
+      "name": "CARRAO",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.75,
+        "share_municipal_bad": 0.7571183533447684,
+        "share_estadual_bad": 0.7431527693244067,
+        "acesso_creche_bad": 0.3567753001715267
+      }
+    },
+    {
+      "id": "8583461.0",
+      "name": "CASA VERDE",
+      "norm": {
+        "marginalidade": 0.26534884487828153,
+        "schools_total_bad": 0.7806122448979592,
+        "share_municipal_bad": 0.6804642166344295,
+        "share_estadual_bad": 0.7021276595744681,
+        "acesso_creche_bad": 0.33268858800773704
+      }
+    },
+    {
+      "id": "8583462.0",
+      "name": "CIDADE ADEMAR",
+      "norm": {
+        "marginalidade": 0.489288663629649,
+        "schools_total_bad": 0.5357142857142857,
+        "share_municipal_bad": 0.5483253588516747,
+        "share_estadual_bad": 0.45942275042444825,
+        "acesso_creche_bad": 0.42105263157894746
+      }
+    },
+    {
+      "id": "8583463.0",
+      "name": "CIDADE DUTRA",
+      "norm": {
+        "marginalidade": 0.30893860547762514,
+        "schools_total_bad": 0.34183673469387754,
+        "share_municipal_bad": 0.4031442241968558,
+        "share_estadual_bad": 0.6963376182391463,
+        "acesso_creche_bad": 0.31989063568010934
+      }
+    },
+    {
+      "id": "8583464.0",
+      "name": "CIDADE LIDER",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.6275510204081632,
+        "share_municipal_bad": 0.3312868949232586,
+        "share_estadual_bad": 0.7050691244239631,
+        "acesso_creche_bad": 0.2030696576151122
+      }
+    },
+    {
+      "id": "8583465.0",
+      "name": "CIDADE TIRADENTES",
+      "norm": {
+        "marginalidade": 0.4184144161537796,
+        "schools_total_bad": 0.25,
+        "share_municipal_bad": 0.062251655629139035,
+        "share_estadual_bad": 0.7966246528519547,
+        "acesso_creche_bad": 0.19024683925346186
+      }
+    },
+    {
+      "id": "8583466.0",
+      "name": "CONSOLACAO",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.8520408163265306,
+        "share_municipal_bad": 0.8049586776859504,
+        "share_estadual_bad": 0.8709677419354839,
+        "acesso_creche_bad": 0.462809917355372
+      }
+    },
+    {
+      "id": "8583467.0",
+      "name": "CURSINO",
+      "norm": {
+        "marginalidade": 0.6306564564407058,
+        "schools_total_bad": 0.7602040816326531,
+        "share_municipal_bad": 0.663458110516934,
+        "share_estadual_bad": 0.5635673624288425,
+        "acesso_creche_bad": 0.31372549019607854
+      }
+    },
+    {
+      "id": "8583468.0",
+      "name": "ERMELINO MATARAZZO",
+      "norm": {
+        "marginalidade": 0.23043515608383774,
+        "schools_total_bad": 0.7295918367346939,
+        "share_municipal_bad": 0.43540669856459335,
+        "share_estadual_bad": 0.5789473684210527,
+        "acesso_creche_bad": 0.3381180223285487
+      }
+    },
+    {
+      "id": "8583469.0",
+      "name": "FREGUESIA DO O",
+      "norm": {
+        "marginalidade": 0.22816530715652497,
+        "schools_total_bad": 0.5306122448979591,
+        "share_municipal_bad": 0.4412878787878787,
+        "share_estadual_bad": 0.6431451612903226,
+        "acesso_creche_bad": 0.5265151515151516
+      }
+    },
+    {
+      "id": "8583470.0",
+      "name": "GRAJAU",
+      "norm": {
+        "marginalidade": 0.42213797236671635,
+        "schools_total_bad": 0.0,
+        "share_municipal_bad": 0.4314545454545454,
+        "share_estadual_bad": 0.4790322580645161,
+        "acesso_creche_bad": 0.31818181818181823
+      }
+    },
+    {
+      "id": "8583471.0",
+      "name": "GUAIANASES",
+      "norm": {
+        "marginalidade": 0.25050663966498865,
+        "schools_total_bad": 0.653061224489796,
+        "share_municipal_bad": 0.5232323232323233,
+        "share_estadual_bad": 0.532258064516129,
+        "acesso_creche_bad": 0.31818181818181823
+      }
+    },
+    {
+      "id": "8583472.0",
+      "name": "IGUATEMI",
+      "norm": {
+        "marginalidade": 0.4326752155505821,
+        "schools_total_bad": 0.6581632653061225,
+        "share_municipal_bad": 0.0632522407170295,
+        "share_estadual_bad": 0.6746933212176284,
+        "acesso_creche_bad": 0.4302176696542894
+      }
+    },
+    {
+      "id": "8583473.0",
+      "name": "IPIRANGA",
+      "norm": {
+        "marginalidade": 0.505905110632142,
+        "schools_total_bad": 0.653061224489796,
+        "share_municipal_bad": 0.7616161616161616,
+        "share_estadual_bad": 0.6801075268817205,
+        "acesso_creche_bad": 0.31818181818181823
+      }
+    },
+    {
+      "id": "8583474.0",
+      "name": "ITAIM BIBI",
+      "norm": {
+        "marginalidade": 0.08117420389783413,
+        "schools_total_bad": 0.8163265306122449,
+        "share_municipal_bad": 0.7854545454545454,
+        "share_estadual_bad": 0.6387096774193548,
+        "acesso_creche_bad": 0.5454545454545454
+      }
+    },
+    {
+      "id": "8583475.0",
+      "name": "ITAIM PAULISTA",
+      "norm": {
+        "marginalidade": 0.1706788927117306,
+        "schools_total_bad": 0.3571428571428571,
+        "share_municipal_bad": 0.40587412587412586,
+        "share_estadual_bad": 0.5076923076923077,
+        "acesso_creche_bad": 0.36363636363636376
+      }
+    },
+    {
+      "id": "8583476.0",
+      "name": "ITAQUERA",
+      "norm": {
+        "marginalidade": 0.44058970293241007,
+        "schools_total_bad": 0.326530612244898,
+        "share_municipal_bad": 0.6056149732620321,
+        "share_estadual_bad": 0.6888045540796963,
+        "acesso_creche_bad": 0.35828877005347604
+      }
+    },
+    {
+      "id": "8583477.0",
+      "name": "JABAQUARA",
+      "norm": {
+        "marginalidade": 0.49798478000370794,
+        "schools_total_bad": 0.5612244897959184,
+        "share_municipal_bad": 0.5709090909090908,
+        "share_estadual_bad": 0.6860215053763441,
+        "acesso_creche_bad": 0.3232323232323233
+      }
+    },
+    {
+      "id": "8583478.0",
+      "name": "JACANA",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7857142857142857,
+        "share_municipal_bad": 0.34703557312252953,
+        "share_estadual_bad": 0.5553997194950911,
+        "acesso_creche_bad": 0.26877470355731226
+      }
+    },
+    {
+      "id": "8583479.0",
+      "name": "JAGUARA",
+      "norm": {
+        "marginalidade": 0.05646568224483085,
+        "schools_total_bad": 0.9285714285714286,
+        "share_municipal_bad": 0.5232323232323233,
+        "share_estadual_bad": 0.3548387096774195,
+        "acesso_creche_bad": 0.6464646464646465
+      }
+    },
+    {
+      "id": "8583480.0",
+      "name": "JAGUARE",
+      "norm": {
+        "marginalidade": 0.30334561081825223,
+        "schools_total_bad": 0.9081632653061225,
+        "share_municipal_bad": 0.6099173553719008,
+        "share_estadual_bad": 0.6774193548387097,
+        "acesso_creche_bad": 0.3801652892561983
+      }
+    },
+    {
+      "id": "8583481.0",
+      "name": "JARAGUA",
+      "norm": {
+        "marginalidade": 0.33232751116273335,
+        "schools_total_bad": 0.41326530612244894,
+        "share_municipal_bad": 0.1526355996944232,
+        "share_estadual_bad": 0.6888045540796963,
+        "acesso_creche_bad": 0.3391902215431627
+      }
+    },
+    {
+      "id": "8583482.0",
+      "name": "JARDIM HELENA",
+      "norm": {
+        "marginalidade": 0.3323806574041831,
+        "schools_total_bad": 0.6224489795918368,
+        "share_municipal_bad": 0.3123543123543122,
+        "share_estadual_bad": 0.6823821339950372,
+        "acesso_creche_bad": 0.35897435897435903
+      }
+    },
+    {
+      "id": "8583483.0",
+      "name": "JARDIM PAULISTA",
+      "norm": {
+        "marginalidade": 0.1292163182576211,
+        "schools_total_bad": 0.9183673469387755,
+        "share_municipal_bad": 0.8927272727272727,
+        "share_estadual_bad": 0.8516129032258064,
+        "acesso_creche_bad": 0.36363636363636376
+      }
+    },
+    {
+      "id": "8583484.0",
+      "name": "JARDIM SAO LUIS",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.15306122448979587,
+        "share_municipal_bad": 0.5330481283422459,
+        "share_estadual_bad": 0.6512333965844402,
+        "acesso_creche_bad": 0.24598930481283432
+      }
+    },
+    {
+      "id": "8583485.0",
+      "name": "JOSE BONIFACIO",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7040816326530612,
+        "share_municipal_bad": 0.3079178885630498,
+        "share_estadual_bad": 0.4120707596253903,
+        "acesso_creche_bad": 0.36950146627565983
+      }
+    },
+    {
+      "id": "8583486.0",
+      "name": "LAJEADO",
+      "norm": {
+        "marginalidade": 0.34803160928704313,
+        "schools_total_bad": 0.40816326530612246,
+        "share_municipal_bad": 0.5887878787878787,
+        "share_estadual_bad": 0.7806451612903226,
+        "acesso_creche_bad": 0.030303030303030387
+      }
+    },
+    {
+      "id": "8583487.0",
+      "name": "LAPA",
+      "norm": {
+        "marginalidade": 0.1014608186360125,
+        "schools_total_bad": 0.7295918367346939,
+        "share_municipal_bad": 0.7365231259968101,
+        "share_estadual_bad": 0.6162988115449916,
+        "acesso_creche_bad": 0.529505582137161
+      }
+    },
+    {
+      "id": "8583488.0",
+      "name": "LIBERDADE",
+      "norm": {
+        "marginalidade": 0.2887619394647052,
+        "schools_total_bad": 0.8163265306122449,
+        "share_municipal_bad": 0.8390909090909091,
+        "share_estadual_bad": 0.9048387096774193,
+        "acesso_creche_bad": 0.5454545454545454
+      }
+    },
+    {
+      "id": "8583489.0",
+      "name": "LIMAO",
+      "norm": {
+        "marginalidade": 0.0,
+        "schools_total_bad": 0.7959183673469388,
+        "share_municipal_bad": 0.6099173553719008,
+        "share_estadual_bad": 0.5806451612903226,
+        "acesso_creche_bad": 0.25619834710743816
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+inputs:
+  distritos_geojson: "data/geojson/sao_paulo_distritos.geojson"
+  inep_csv: "data/raw/inep_escolas_2023_sp.csv"   # <--- novo CSV
+  ideb_csv: "data/raw/ideb_escolas_2023_sp.csv"
+  mapa_ods: "data/raw/mapa_desigualdade_2023.ods"
+  mapa_sheet: "2__Dados_distritos_2023"
+
+schema:
+  inep:
+    id_escola: ["Código INEP","CODIGO INEP","cod_inep","INEP","id_escola"]
+    lon:       ["Longitude","LONGITUDE","lon","longitude","CO_LONGITUDE"]
+    lat:       ["Latitude","LATITUDE","lat","latitude","CO_LATITUDE"]
+
+    # como não há matrículas/docentes nesta planilha, deixamos vazio (o ETL lida com ausência)
+    matriculas: []
+    docentes:   []
+
+    # não há taxas aqui; deixamos vazio
+    evasao: []
+    distorcao: []
+
+    # Etapas para o proxy de creche (opcional)
+    etapa: ["Etapas e Modalidade de Ensino Oferecidas","Etapas"]
+
+    # Campos úteis extras (opcionais para o front/filters)
+    rede: ["Dependência Administrativa","Categoria Administrativa"]
+    localizacao: ["Localização"]
+    endereco: ["Endereço"]
+
+  ideb:
+    id_escola: ["Código INEP","cod_inep","INEP","id_escola","CO_ENTIDADE"]
+    ideb:      ["ideb","IDEB","nota_saeb_media_padronizada","indicador_rendimento"]
+    ano:       ["ano","ANO"]
+
+  mapa:
+    distrito: [ "Distritos","distrito","nome_distrito","name" ]
+    score:
+      - "Favelas"
+      - "População em situação de rua"
+      - "Homicídios"
+      - "Abandono escolar no ensino fundamental da rede municipal"
+      - "Distorção idade-série no ensino fundamental da rede municipal"
+llm:
+  model: "llama3.1:8b"
+  url: "http://localhost:11434/api/chat"
+  temperature: 0
+
+outputs:
+  agg_parquet: "out/agg.parquet"
+  norm_json:   "out/norm_for_llm.json"
+  rank_json:   "out/llm_ranking.json"
+  final_geojson: "out/distritos_front.geojson"

@@ -1,0 +1,2308 @@
+{
+  "ranking": [
+    {
+      "id": "8583422.0",
+      "rank": 1,
+      "llm_score": 0.888265,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9642857142857143
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.9586776859504132
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8709677419354839
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583488.0",
+      "rank": 2,
+      "llm_score": 0.678895,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.9048387096774193
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8390909090909091
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8163265306122449
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583446.0",
+      "rank": 3,
+      "llm_score": 0.678849,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.9758064516129032
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8979591836734694
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583455.0",
+      "rank": 4,
+      "llm_score": 0.673674,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.9719495091164095
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7857142857142857
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.766798418972332
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583398.0",
+      "rank": 5,
+      "llm_score": 0.643663,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8979591836734694
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8870967741935484
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8212121212121213
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583447.0",
+      "rank": 6,
+      "llm_score": 0.637826,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8520408163265306
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8049586776859504
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583427.0",
+      "rank": 7,
+      "llm_score": 0.636058,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.75
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7431527693244067
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583483.0",
+      "rank": 8,
+      "llm_score": 0.631112,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9183673469387755
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8927272727272727
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8516129032258064
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583409.0",
+      "rank": 9,
+      "llm_score": 0.626773,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9591836734693877
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6424242424242425
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583449.0",
+      "rank": 10,
+      "llm_score": 0.621015,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8979591836734694
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7983870967741935
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7318181818181818
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583414.0",
+      "rank": 11,
+      "llm_score": 0.608474,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8756258234519104
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8176718092566619
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6683673469387755
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583454.0",
+      "rank": 12,
+      "llm_score": 0.606284,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9285714285714286
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.7474747474747474
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7096774193548387
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583432.0",
+      "rank": 13,
+      "llm_score": 0.604051,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.846938775510204
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8140417457305503
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6844919786096256
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583405.0",
+      "rank": 14,
+      "llm_score": 0.603477,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8061224489795918
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7956709956709956
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7603686635944701
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583395.0",
+      "rank": 15,
+      "llm_score": 0.603018,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5454545454545454
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583413.0",
+      "rank": 16,
+      "llm_score": 0.601756,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.745933014354067
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6326530612244898
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.616070505787573
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583466.0",
+      "rank": 17,
+      "llm_score": 0.598155,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8709677419354839
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8520408163265306
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8049586776859504
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583399.0",
+      "rank": 18,
+      "llm_score": 0.595356,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9693877551020408
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6387096774193548
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5709090909090908
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583403.0",
+      "rank": 19,
+      "llm_score": 0.5943,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.9024793388429752
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8225806451612904
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7959183673469388
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583423.0",
+      "rank": 20,
+      "llm_score": 0.586576,
+      "tier": "muito alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8673469387755102
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7806451612903226
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.4933740745230905
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583467.0",
+      "rank": 21,
+      "llm_score": 0.586322,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7602040816326531
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.663458110516934
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.6306564564407058
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583430.0",
+      "rank": 22,
+      "llm_score": 0.58439,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8673469387755102
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6424242424242425
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.49677419354838714
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583473.0",
+      "rank": 23,
+      "llm_score": 0.583774,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7616161616161616
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6801075268817205
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.653061224489796
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583397.0",
+      "rank": 24,
+      "llm_score": 0.576508,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.824860853432282
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7704081632653061
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7603686635944701
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583480.0",
+      "rank": 25,
+      "llm_score": 0.575802,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9081632653061225
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6774193548387097
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6099173553719008
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583412.0",
+      "rank": 26,
+      "llm_score": 0.575505,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.9329545454545455
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8571428571428572
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5987903225806452
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583474.0",
+      "rank": 27,
+      "llm_score": 0.573424,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8163265306122449
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7854545454545454
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6387096774193548
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583396.0",
+      "rank": 28,
+      "llm_score": 0.571652,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.842741935483871
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7755102040816326
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7318181818181818
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583402.0",
+      "rank": 29,
+      "llm_score": 0.569155,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8624708624708625
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6224489795918368
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5732009925558312
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583429.0",
+      "rank": 30,
+      "llm_score": 0.566372,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8181818181818181
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7193877551020409
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7036632039365773
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583434.0",
+      "rank": 31,
+      "llm_score": 0.563964,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8675645342312008
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8279569892473119
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6071428571428572
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583400.0",
+      "rank": 32,
+      "llm_score": 0.561279,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8214285714285714
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6823821339950372
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6699300699300699
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583424.0",
+      "rank": 33,
+      "llm_score": 0.553533,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6935064935064935
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6632653061224489
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6387096774193548
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583461.0",
+      "rank": 34,
+      "llm_score": 0.552248,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7806122448979592
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7021276595744681
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6804642166344295
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583426.0",
+      "rank": 35,
+      "llm_score": 0.551697,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7701298701298701
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7346938775510203
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6463133640552996
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583442.0",
+      "rank": 36,
+      "llm_score": 0.544905,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 1.0
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9438775510204082
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7806451612903226
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583401.0",
+      "rank": 37,
+      "llm_score": 0.543304,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7704081632653061
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.586570111915734
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.4897959183673469
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583421.0",
+      "rank": 38,
+      "llm_score": 0.543162,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8927272727272727
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7451612903225806
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7142857142857143
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583487.0",
+      "rank": 39,
+      "llm_score": 0.542676,
+      "tier": "alto",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7365231259968101
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7295918367346939
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6162988115449916
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583436.0",
+      "rank": 40,
+      "llm_score": 0.542041,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7551020408163265
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.5183312627530395
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5048951048951049
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583450.0",
+      "rank": 41,
+      "llm_score": 0.532541,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9336734693877551
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.9197860962566845
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6213903743315508
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583437.0",
+      "rank": 42,
+      "llm_score": 0.531141,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7091836734693877
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6834575260804769
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5409836065573771
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583477.0",
+      "rank": 43,
+      "llm_score": 0.527874,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6860215053763441
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5709090909090908
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.5612244897959184
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583453.0",
+      "rank": 44,
+      "llm_score": 0.525081,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.695483870967742
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6377551020408163
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5995151515151516
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583406.0",
+      "rank": 45,
+      "llm_score": 0.524835,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.5867346938775511
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5635673624288425
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.495187165775401
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583452.0",
+      "rank": 46,
+      "llm_score": 0.522961,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7857142857142857
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6735177865612647
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.624505928853755
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583460.0",
+      "rank": 47,
+      "llm_score": 0.521409,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.7571183533447684
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.75
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7431527693244067
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583435.0",
+      "rank": 48,
+      "llm_score": 0.506693,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6617262423714037
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.652088452088452
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6428571428571428
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583456.0",
+      "rank": 49,
+      "llm_score": 0.502086,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.8188585607940446
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7551020408163265
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.42237762237762233
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583479.0",
+      "rank": 50,
+      "llm_score": 0.501915,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.9285714285714286
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.6464646464646465
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5232323232323233
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583425.0",
+      "rank": 51,
+      "llm_score": 0.496998,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7244897959183674
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5139043381535039
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.49236518934966694
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583440.0",
+      "rank": 52,
+      "llm_score": 0.494699,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7885304659498208
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7448979591836735
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5629629629629629
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583394.0",
+      "rank": 53,
+      "llm_score": 0.494495,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7779156327543425
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7551020408163265
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.38111888111888115
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583462.0",
+      "rank": 54,
+      "llm_score": 0.490761,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5483253588516747
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.5357142857142857
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.489288663629649
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583410.0",
+      "rank": 55,
+      "llm_score": 0.489885,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7697270471464019
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6887755102040816
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.6152591962221146
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583444.0",
+      "rank": 56,
+      "llm_score": 0.484256,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7397959183673469
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5612903225806452
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4538842975206612
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583476.0",
+      "rank": 57,
+      "llm_score": 0.483966,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6888045540796963
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6056149732620321
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.44058970293241007
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583433.0",
+      "rank": 58,
+      "llm_score": 0.479792,
+      "tier": "médio",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7091836734693877
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5758857747223691
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.4709686281439587
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583448.0",
+      "rank": 59,
+      "llm_score": 0.4768,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.8503171247357294
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8010204081632653
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.6088794926004228
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583469.0",
+      "rank": 60,
+      "llm_score": 0.473945,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6431451612903226
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.5306122448979591
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5265151515151516
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583418.0",
+      "rank": 61,
+      "llm_score": 0.47249,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.656208572691118
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6479591836734694
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5579078455790785
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583411.0",
+      "rank": 62,
+      "llm_score": 0.4707,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7129328203610535
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.535914779079787
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.4642857142857143
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583443.0",
+      "rank": 63,
+      "llm_score": 0.466914,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.8418367346938775
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7603686635944701
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5194805194805197
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583415.0",
+      "rank": 64,
+      "llm_score": 0.46534,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.826530612244898
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7843803056027165
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.44976076555023914
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583468.0",
+      "rank": 65,
+      "llm_score": 0.4625,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7295918367346939
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5789473684210527
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.43540669856459335
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583482.0",
+      "rank": 66,
+      "llm_score": 0.461708,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6823821339950372
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6224489795918368
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.35897435897435903
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583407.0",
+      "rank": 67,
+      "llm_score": 0.460102,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7908163265306123
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6860215053763441
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.4040404040404042
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583471.0",
+      "rank": 68,
+      "llm_score": 0.455448,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.653061224489796
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.532258064516129
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5232323232323233
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583472.0",
+      "rank": 69,
+      "llm_score": 0.4518,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6746933212176284
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6581632653061225
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.4326752155505821
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583457.0",
+      "rank": 70,
+      "llm_score": 0.449719,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7772657450076805
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.5953667041596439
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.37755102040816324
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583404.0",
+      "rank": 71,
+      "llm_score": 0.448914,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.783323189287888
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.75
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.2881646655231562
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583489.0",
+      "rank": 72,
+      "llm_score": 0.448536,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7959183673469388
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6099173553719008
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5806451612903226
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583441.0",
+      "rank": 73,
+      "llm_score": 0.44596,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7653061224489796
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.6138181818181818
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5961290322580646
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583439.0",
+      "rank": 74,
+      "llm_score": 0.443693,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.596938775510204
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.46878422782037255
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4571741511500548
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583408.0",
+      "rank": 75,
+      "llm_score": 0.440209,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7091836734693877
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6107879428873613
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5007451564828613
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583445.0",
+      "rank": 76,
+      "llm_score": 0.438959,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7448979591836735
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6308243727598567
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.5117845117845119
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583486.0",
+      "rank": 77,
+      "llm_score": 0.431186,
+      "tier": "baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7806451612903226
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5887878787878787
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.40816326530612246
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583431.0",
+      "rank": 78,
+      "llm_score": 0.42091,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6989795918367347
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.523809523809524
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.4444444444444444
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583463.0",
+      "rank": 79,
+      "llm_score": 0.41403,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6963376182391463
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4031442241968558
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.34183673469387754
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583458.0",
+      "rank": 80,
+      "llm_score": 0.407882,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7091836734693877
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5060814383923851
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4724292101341282
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583416.0",
+      "rank": 81,
+      "llm_score": 0.39643,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7448979591836735
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6702508960573477
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.3245791245791245
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583420.0",
+      "rank": 82,
+      "llm_score": 0.395234,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7577911427009295
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.5010880596212677
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.41836734693877553
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583478.0",
+      "rank": 83,
+      "llm_score": 0.391385,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7857142857142857
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5553997194950911
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.34703557312252953
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583481.0",
+      "rank": 84,
+      "llm_score": 0.385245,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6888045540796963
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.41326530612244894
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.3391902215431627
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583464.0",
+      "rank": 85,
+      "llm_score": 0.373395,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7050691244239631
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6275510204081632
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.3312868949232586
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583417.0",
+      "rank": 86,
+      "llm_score": 0.371645,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6982310093652445
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.5459183673469388
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.46940371456500485
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583428.0",
+      "rank": 87,
+      "llm_score": 0.371386,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6284492809949476
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.596938775510204
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.38116100766703176
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583475.0",
+      "rank": 88,
+      "llm_score": 0.361005,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5076923076923077
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.40587412587412586
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.36363636363636376
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583485.0",
+      "rank": 89,
+      "llm_score": 0.358714,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.7040816326530612
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.4120707596253903
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.36950146627565983
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583451.0",
+      "rank": 90,
+      "llm_score": 0.349441,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6831969186326432
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4396200814111262
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.33673469387755106
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583465.0",
+      "rank": 91,
+      "llm_score": 0.343508,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7966246528519547
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.4184144161537796
+        },
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.25
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583419.0",
+      "rank": 92,
+      "llm_score": 0.332503,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "schools_total_bad",
+          "direction": "up",
+          "contribution": 0.6734693877551021
+        },
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6574952561669829
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.27807486631016043
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583470.0",
+      "rank": 93,
+      "llm_score": 0.330161,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.4790322580645161
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.4314545454545454
+        },
+        {
+          "name": "marginalidade",
+          "direction": "up",
+          "contribution": 0.42213797236671635
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583484.0",
+      "rank": 94,
+      "llm_score": 0.316666,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.6512333965844402
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.5330481283422459
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.24598930481283432
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583459.0",
+      "rank": 95,
+      "llm_score": 0.299887,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.7075526366621596
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.34480130647795315
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.27871529667936856
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "id": "8583438.0",
+      "rank": 96,
+      "llm_score": 0.287567,
+      "tier": "muito baixo",
+      "drivers": [
+        {
+          "name": "share_estadual_bad",
+          "direction": "up",
+          "contribution": 0.5812388679992084
+        },
+        {
+          "name": "acesso_creche_bad",
+          "direction": "up",
+          "contribution": 0.3390964863357502
+        },
+        {
+          "name": "share_municipal_bad",
+          "direction": "up",
+          "contribution": 0.32872281093139977
+        }
+      ],
+      "explanation": ""
+    }
+  ]
+}

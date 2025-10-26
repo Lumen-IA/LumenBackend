@@ -1,0 +1,12 @@
+ano,sigla_uf,id_municipio,rede,ensino,anos_escolares,taxa_aprovacao,indicador_rendimento,nota_saeb_matematica,nota_saeb_lingua_portuguesa,nota_saeb_media_padronizada,ideb,projecao
+2023,SP,3550308,federal,medio,todos (1-4),95.6,0.958503,327.41,330.84,6.240664,6.0,
+2023,SP,3550308,federal,fundamental,iniciais (1-5),100.0,1.0,241.37,217.5,6.524896,6.5,
+2023,SP,3550308,municipal,medio,todos (1-4),94.3,0.956757,266.21,273.1,4.516742,4.3,
+2023,SP,3550308,publica,fundamental,finais (6-9),97.0,0.97017,247.94,251.95,4.998167,4.8,
+2023,SP,3550308,municipal,fundamental,finais (6-9),98.8,0.987988,244.77,247.08,4.864167,4.8,
+2023,SP,3550308,estadual,medio,todos (1-4),89.4,0.896169,265.35,277.16,4.565442,4.1,
+2023,SP,3550308,municipal,fundamental,iniciais (1-5),99.5,0.994799,210.61,198.68,5.595691,5.6,
+2023,SP,3550308,estadual,fundamental,iniciais (1-5),98.9,0.988595,224.88,212.79,6.124565,6.1,
+2023,SP,3550308,estadual,fundamental,finais (6-9),95.6,0.956073,250.39,255.72,5.101833,4.9,
+2023,SP,3550308,publica,fundamental,iniciais (1-5),99.1,0.991197,219.14,207.11,5.91175,5.9,
+2023,SP,3550308,publica,medio,todos (1-4),89.5,0.918187,265.86,277.57,4.578743,4.2,
